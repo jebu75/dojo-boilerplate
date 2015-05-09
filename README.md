@@ -1,9 +1,7 @@
-Dojo Boilerplate: A Starter Kit for Dojo Development
-====================================================
 
-The Dojo Boilerplate is a set of files to help you rapidly get up and running
-with the Dojo Toolkit. It illustrates some basic best practices when working
-with Dojo.
+##Dojo Boilerplate/CMV
+
+Create fast, optimized CMV builds using [The Dojo Build System](http://dojotoolkit.org/reference-guide/1.10/build/)
 
 Quick Start
 -----------
@@ -13,10 +11,12 @@ Quick Start
    installed.
 1. Clone the repository using `git clone --recursive`.
 2. Run `npm install` to install additional Node.js dependencies.
-3. Develop your project in `src/` until it is amazing.
-4. Run `build.sh`, which will create an awesome optimised build in `dist/`.
-5. Upload `dist/` for millions of people the world over to enjoy.
-6. Hapyness.
+3. Install globally grunt-cli with `npm install -g grunt-cli`
+4. Run `grunt slurp` to download the esri api (v3.13) into the src folder
+5. Develop your project in `src/` until it is amazing.
+6. Run `build.sh`, which will create an awesome optimised build in `dist/`.
+7. Upload `dist/` for millions of people the world over to enjoy.
+8. Hapyness.
 
 ### Windows Users
 
