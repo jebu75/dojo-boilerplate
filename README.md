@@ -26,6 +26,21 @@ some dependencies by running the following commands:
     which java
     which node
 
+###Before and after
+Esri applications require many files. The dojo build system scans and compresses required files into one, which is referred to as a layer. 
+Here are the results for the CMV App after a dojo build has completed:
+
+Item | Before Build | After Build
+-----|--------------|------------
+Javascript Requests | 487 files | 9 files
+CSS Requests | 21 files | 1 file
+HTML Requests | 42 files | 1 file
+Images | 24 files | 24 files
+firebug onload | 8.93 seconds | 3.13 seconds
+chromium load | 1.14 seconds | 690-710 milliseconds
+
+**load times were tested on local dev server**
+    
 A brief tour
 ------------
 
