@@ -71,8 +71,7 @@ var profile = {
 		"viewer/Controller"
             ],
             customBase: true,
-            boot: true,
-	    targetStylesheet: "viewer/css/main.css",
+            boot: true
         },
     },
     includeLocales: ['en-us'],
