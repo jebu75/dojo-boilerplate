@@ -18,8 +18,7 @@ define([
 	'dojo/topic',
 	'esri/dijit/PopupMobile',
 	'dijit/Menu',
-	'esri/IdentityManager',
-	'xstyle/css!./css/main.css'
+	'esri/IdentityManager'
 ], function (Map, dom, domStyle, domGeom, domClass, on, array, BorderContainer, ContentPane, FloatingTitlePane, lang, mapOverlay, FloatingWidgetDialog, put, aspect, has, topic, PopupMobile, Menu) {
 
 	return {
