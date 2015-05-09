@@ -35,7 +35,7 @@ echo -n "Cleaning old files..."
 rm -rf "$DISTDIR"
 echo " Done"
 
-node_modules/.bin/stylus -c "$SRCDIR/app/resources/app.styl"
+#node_modules/.bin/stylus -c "$SRCDIR/app/resources/app.styl"
 "$TOOLSDIR/build.sh" --profile "$PROFILE" --releaseDir "$DISTDIR" $@
 
 cd "$BASEDIR"
