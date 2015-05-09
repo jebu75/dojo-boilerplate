@@ -3,7 +3,45 @@ define([
    'esri/geometry/Extent',
    'esri/config',
    'esri/tasks/GeometryService',
-   'esri/layers/ImageParameters'
+   'esri/layers/ImageParameters',
+   
+   //include all widgets used so they get build into the dojo layer file
+   'gis/dijit/_FloatingWidgetMixin',
+   'gis/dijit/Basemaps',
+   'gis/dijit/Bookmarks',
+   'gis/dijit/Directions',
+   'gis/dijit/Draw',
+   'gis/dijit/Editor',
+   'gis/dijit/Find',
+   'gis/dijit/FloatingTitlePane',
+   'gis/dijit/FloatingWidgetDialog',
+   'gis/dijit/Geocoder',
+   'gis/dijit/Growler',
+   'gis/dijit/Help',
+   'gis/dijit/Identify',
+   'gis/dijit/LayerControl',
+   'gis/dijit/LayerControl/_Control',
+   'gis/dijit/LayerControl/Dynamic',
+   'gis/dijit/LayerControl/Feature',
+   'gis/dijit/LayerControl/_DynamicSublayer',
+   'gis/dijit/LayerControl/_DynamicFolder',
+   'gis/dijit/LayerControl/plugins/LayerMenu',
+   'gis/dijit/LayerControl/plugins/legendUtil',
+   'gis/dijit/LocateButton',
+   'gis/dijit/MapInfo',
+   'gis/dijit/Measurement',
+   'gis/dijit/Print',
+   'gis/dijit/StreetView',
+   'gis/dijit/Vim',
+   
+   'esri/dijit/Legend',
+   'esri/dijit/Scalebar',
+   'esri/dijit/HomeButton',
+   'esri/dijit/OverviewMap',
+   
+   'esri/layers/ArcGISDynamicMapServiceLayer',
+   'esri/layers/FeatureLayer',
+   'esri/layers/GraphicsLayer'
 ], function (units, Extent, esriConfig, GeometryService, ImageParameters) {
 
     // url to your proxy page, must be on same machine hosting you app. See proxy folder for readme.
