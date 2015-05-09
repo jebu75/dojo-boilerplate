@@ -21,4 +21,4 @@
 	url = https://github.com/kriszyp/xstyle.git
 [submodule "src/proj4js"]
 	path = src/proj4js
-	url = https://github.com/proj4js/proj4js.git
+	url = https://github.com/roemhildtg/proj4js.git
