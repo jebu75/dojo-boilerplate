@@ -10,7 +10,7 @@ define([
     'dojo/dom-style',
     'dojo/number',
     'dojo/topic',
-    'proj4/proj4',
+    'proj4js/dist/proj4',
     'xstyle/css!./MapInfo/css/MapInfo.css'
 ], function (
     declare,

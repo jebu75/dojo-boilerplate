@@ -17,7 +17,7 @@ define([
 	'esri/geometry/Point',
 	'esri/SpatialReference',
 	'dijit/MenuItem',
-	'proj4/proj4',
+	'proj4js/dist/proj4',
 	'dojo/i18n!./StreetView/nls/resource',
 	'dijit/form/Button',
 	'xstyle/css!./StreetView/css/StreetView.css',
